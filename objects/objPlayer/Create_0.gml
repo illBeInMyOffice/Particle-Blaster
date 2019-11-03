@@ -11,6 +11,8 @@ dying = 0
 beamsOnScreen = 0
 flipColor = 0
 playerSpeed = 4.5
+farts = 1
+
 
 
 exhaust_s = part_system_create()
