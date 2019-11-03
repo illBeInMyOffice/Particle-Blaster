@@ -1,4 +1,9 @@
-script_execute(playerDied, 2)
+if objPlayer.dying != 1{
+	script_execute(playerDied, 2)
+}
+
+
+
 /*
 if objPlayer.state != 2
 {

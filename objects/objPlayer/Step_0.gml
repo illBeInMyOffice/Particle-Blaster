@@ -56,12 +56,12 @@ if Boost == 1
 		exhaustColor2 = c_yellow
 		exhaustSize1 = 1
 		exhaustSize2 = 2
-		Boost = 0
 		audio_play_sound(boostReady, 1, false)
+		Boost = 0
 	}
 }
 
-
+exhaustMax = 8
 
 if dying == 0
 {
@@ -83,7 +83,7 @@ if dying == 0
 	if keyboard_check(ord("A"))
 	{
 		x -= playerSpeed
-		exhaustMax = 20
+		exhaustMax = 4
 	}
 
 	if keyboard_check(ord("D"))
@@ -107,7 +107,7 @@ if dying == 1
 
 if dying == 0
 {
-	part_emitter_region(exhaust_s, exhaust_e, objPlayer.x - 5, objPlayer.x - 5, objPlayer.y, objPlayer.y, ps_shape_diamond, ps_distr_gaussian)
+	part_emitter_region(exhaust_s, exhaust_e, objPlayer.x - 25, objPlayer.x - 25, objPlayer.y, objPlayer.y, ps_shape_diamond, ps_distr_gaussian)
 	part_emitter_stream(exhaust_s, exhaust_e, exhaust_p, 20)
 }
 

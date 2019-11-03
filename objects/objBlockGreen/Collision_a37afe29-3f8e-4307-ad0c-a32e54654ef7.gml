@@ -1,4 +1,8 @@
+
+if objPlayer.dying != 1
+{
 script_execute(playerDied, 3)
+}
 /*
 if objPlayer.state != 3
 {

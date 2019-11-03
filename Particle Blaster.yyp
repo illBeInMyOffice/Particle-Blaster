@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "54ee3642-0067-4041-8ff3-2df119c80654",
+            "Value": {
+                "id": "8a32a7d2-8926-4e8c-baaa-3b70a5c645dd",
+                "resourcePath": "sounds\\asteroidPoints\\asteroidPoints.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "55c2cafb-f3b6-45ae-b92f-fff13d5d6930",
             "Value": {
                 "id": "68c699db-9d43-47e6-bf8a-504628fe3981",
@@ -340,6 +348,14 @@
                 "id": "8cee697f-825f-400c-a76f-444b301b757f",
                 "resourcePath": "sprites\\sprite1\\sprite1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "78ffc777-b68b-4d35-848c-4fa4d8708a10",
+            "Value": {
+                "id": "be45649e-9ed1-4819-bc42-6915950deb75",
+                "resourcePath": "sounds\\tenKpickup\\tenKpickup.yy",
+                "resourceType": "GMSound"
             }
         },
         {

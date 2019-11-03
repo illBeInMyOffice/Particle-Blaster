@@ -9,7 +9,7 @@ score = score + 1
 
 
 moveIntoSpace = clamp(moveIntoSpace, -2225, -500)
-moveIntoSpace = moveIntoSpace + 1
+moveIntoSpace = lerp(moveIntoSpace, 0, .0003)
 
 layer_y(lay_id, moveIntoSpace)
 	

@@ -9,7 +9,7 @@ if x <= -128
 if objPlayer.dying = 0
 {
 	part_emitter_region(shine_s, shine_e, x - 15, x + 15, y - 15, y + 15, ps_shape_diamond, ps_distr_gaussian)
-	part_emitter_stream(shine_s, shine_e, shine_p, 2)
+	part_emitter_stream(shine_s, shine_e, shine_p, 3)
 }
 
 

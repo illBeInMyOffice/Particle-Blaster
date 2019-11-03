@@ -37,6 +37,7 @@ if objPlayer.state != argument0
 	{
 		with(objPlayer)
 		{
+			
 			audio_play_sound(playerDies, 1, false)
 			sprite_index = explosion
 			image_speed = 1
@@ -53,6 +54,7 @@ else
 	{
 		for (var i = 1; i <= 1; i++)
 		{
+			audio_play_sound(asteroidPoints, 1, false)
 			score += 1000
 			part_emitter_burst(objLevel.explode_s, shine_e, objLevel.explode_p, 100)
 			instance_destroy()
