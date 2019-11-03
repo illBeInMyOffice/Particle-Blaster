@@ -105,9 +105,11 @@ if dying == 1
 //-----------------------------------------------------------------
 //exhaust particles
 
-part_emitter_region(exhaust_s, exhaust_e, objPlayer.x - 5, objPlayer.x - 5, objPlayer.y, objPlayer.y, ps_shape_diamond, ps_distr_gaussian)
-part_emitter_stream(exhaust_s, exhaust_e, exhaust_p, 20)
-
+if dying == 0
+{
+	part_emitter_region(exhaust_s, exhaust_e, objPlayer.x - 5, objPlayer.x - 5, objPlayer.y, objPlayer.y, ps_shape_diamond, ps_distr_gaussian)
+	part_emitter_stream(exhaust_s, exhaust_e, exhaust_p, 20)
+}
 
 
 

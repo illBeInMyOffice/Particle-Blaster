@@ -1,5 +1,5 @@
 image_speed = 0
-direction = 180
+direction = irandom_range(170, 190)
 spin = irandom_range(1, 8)
 
 shine_s = part_system_create()
