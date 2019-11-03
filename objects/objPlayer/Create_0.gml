@@ -7,7 +7,7 @@ exhaustColor2 = c_red
 exhaustSize1 = 1
 exhaustSize2 = 2
 Boost = 0
-
+dying = 0
 beamsOnScreen = 0
 flipColor = 0
 playerSpeed = 4.5

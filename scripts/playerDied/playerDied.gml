@@ -1,10 +1,6 @@
-//if the player isnt blue; destroy all particle systems, check if your score is the highest score of the session
-//and changed the players sprite to the explosion
+//
 
-script_execute(playerDied, 0)
-
-/*
-if objPlayer.state != 0
+if objPlayer.state != argument0
 {
 	objPlayer.dying = 1
 	

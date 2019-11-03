@@ -2,7 +2,7 @@ image_speed = 0
 image_index = 1
 spin = irandom_range(1, 8)
 direction = 180
-
+Switch = 1
 
 shine_s = part_system_create()
 shine_p = part_type_create()

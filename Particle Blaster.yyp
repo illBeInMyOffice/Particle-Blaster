@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "307f8005-6d87-4c85-b015-125ec593f545",
+            "Value": {
+                "id": "e0344b73-7f5f-46ec-98d8-f55dbd08094f",
+                "resourcePath": "sounds\\playerDies\\playerDies.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "30d251e9-26ad-44e4-a42f-7fed68f1424b",
             "Value": {
                 "id": "746db849-e3f5-4b5f-9f41-0e64f8ccda58",
@@ -479,6 +487,14 @@
             }
         },
         {
+            "Key": "d2a8cf70-38c0-4aae-ba28-aaeacdc385f6",
+            "Value": {
+                "id": "53d0264a-c828-4d5b-87e2-d4705b49b822",
+                "resourcePath": "scripts\\playerDied\\playerDied.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d7f7d3e3-cad7-45d0-b01c-33f8798faf48",
             "Value": {
                 "id": "c58eae9b-aed4-4316-a71a-6494254c1dbf",
@@ -560,7 +576,7 @@
         }
     ],
     "script_order": [
-        
+        "d2a8cf70-38c0-4aae-ba28-aaeacdc385f6"
     ],
     "tutorial": ""
 }

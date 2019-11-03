@@ -14,3 +14,4 @@ part_type_orientation(shine_p, 0, 0, 0, 0, true)
 part_type_speed(shine_p, 2, 8, -.05, 0)
 shine_e = part_emitter_create(shine_s)
 
+Switch = 1

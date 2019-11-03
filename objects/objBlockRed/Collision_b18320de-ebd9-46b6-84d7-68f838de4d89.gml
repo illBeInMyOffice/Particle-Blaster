@@ -1,5 +1,8 @@
-if objPlayer.state != 1
+script_execute(playerDied, 1)
+
+/*if objPlayer.state != 1
 {
+	objPlayer.dying = 1
 	
 	part_system_destroy(objPlayer.exhaust_s)
 	with objBlockBlue
@@ -27,21 +30,31 @@ if objPlayer.state != 1
 	}
 	
 	score = 0
-	ds_grid_destroy(objLevel.grid)
-	ds_grid_destroy(objLevel.coordGridX)
-	ds_grid_destroy(objLevel.coordGridY)
-	room_goto(game)
+	if Switch = 1
+	{
+		with(objPlayer)
+		{
+			audio_play_sound(playerDies, 1, false)
+			sprite_index = explosion
+			image_speed = 1
+		}
+		Switch = 0
+	}
+	
 }
 
 
 else
 {
-	for (var i = 0; i = 1; i++)
+	if objPlayer.dying != 1
 	{
-		score += 1000
-		part_emitter_burst(objLevel.explode_s, shine_e, objLevel.explode_p, 100)
-		instance_destroy()
+		for (var i = 1; i <= 1; i++)
+		{
+			score += 1000
+			part_emitter_burst(objLevel.explode_s, shine_e, objLevel.explode_p, 100)
+			instance_destroy()
 		
 		
+		}
 	}
 }

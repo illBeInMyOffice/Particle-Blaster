@@ -63,34 +63,42 @@ if Boost == 1
 
 
 
-
-if keyboard_check(ord("W"))
+if dying == 0
 {
-	y -= playerSpeed
-	exhaustMax = 20
+	if keyboard_check(ord("W"))
+	{
+		y -= playerSpeed
+		exhaustMax = 20
 
+	}
+
+	if keyboard_check(ord("S"))
+	{
+		y += playerSpeed
+		exhaustMax = 20
+
+	}
+
+
+	if keyboard_check(ord("A"))
+	{
+		x -= playerSpeed
+		exhaustMax = 20
+	}
+
+	if keyboard_check(ord("D"))
+	{
+		x += playerSpeed
+		exhaustMax = 20
+	}
 }
 
-if keyboard_check(ord("S"))
+
+if dying == 1
 {
-	y += playerSpeed
-	exhaustMax = 20
-
+	direction = 0
+	speed = 4.5
 }
-
-
-if keyboard_check(ord("A"))
-{
-	x -= playerSpeed
-	exhaustMax = 20
-}
-
-if keyboard_check(ord("D"))
-{
-	x += playerSpeed
-	exhaustMax = 20
-}
-
 
 
 
@@ -110,4 +118,3 @@ backgroundSpeed = backgroundSpeed - .025
 layer_hspeed("Background", backgroundSpeed)
 
 
-show_debug_message(string(playerSpeed))
