@@ -1,0 +1,1 @@
+objPlayer.beamsOnScreen -= 1
